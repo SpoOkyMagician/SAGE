@@ -1,4 +1,5 @@
 #include "A_CustomWidgets.h"
+#include <wx/dc.h>
 
 float AScrolled::rate;
 

@@ -1564,7 +1564,7 @@ void AGE_Frame::OnUnitSelect(wxCommandEvent& event)
             const float closure = 57.2957802f;
 
 #define UGLY_CODE if(angle == 0x80000000) newLabel += "max" + aste;\
-            else newLabel += lexical_cast<std::string>(angle) + aste;
+            else newLabel += boost::lexical_cast<std::string>(angle) + aste;
 
             int angle = UnitPointer->DeadFish.TurnRadius * closure; UGLY_CODE
                 angle = UnitPointer->DeadFish.TurnRadiusSpeed * closure; UGLY_CODE

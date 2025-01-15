@@ -4,6 +4,7 @@
 #include "A_Loaders.h"
 #include "A_OpenDialog.h"
 #include "A_SaveDialog.h"
+#include <wx/toolbar.h>
 
 #ifndef WIN32
 // dummies for code that is not used on linux
@@ -21,6 +22,8 @@
 #include <Psapi.h>
 #include <wx/textfile.h>
 #include <wx/generic/textdlgg.h>
+#include <wx/stdpaths.h>
+#include <iomanip>
 
 genie::GameVersion EditorVersionAsGameVersion(int ver)
 {

@@ -5,6 +5,7 @@
 #include <boost/lexical_cast.hpp>
 #include <wx/generic/textdlgg.h>
 #include <wx/dir.h>
+#include <wx/menu.h>
 
 const genie::Color ColorNotFound(74, 65, 42, 255);
 

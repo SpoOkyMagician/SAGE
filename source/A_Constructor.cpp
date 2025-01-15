@@ -20,6 +20,7 @@
 #include <wx/config.h>
 #include <wx/toolbar.h>
 #include <wx/display.h>
+#include <wx/menu.h>
 
 //#include "genie/util/Logger.h"
 

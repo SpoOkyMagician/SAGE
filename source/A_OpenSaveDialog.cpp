@@ -4,6 +4,7 @@
 #include <boost/lexical_cast.hpp>
 #include <wx/msgdlg.h>
 #include <wx/msw/registry.h>
+#include <wx/textctrl.h>
 
 OpenSaveDialog::OpenSaveDialog(wxWindow* parent, const wxString& title, wxDialog* slave, const wxFont& font)
     : wxDialog(parent, -1, title + " files...", wxDefaultPosition, wxSize(500, 250), wxDEFAULT_DIALOG_STYLE | wxRESIZE_BORDER | wxNO_DEFAULT)
