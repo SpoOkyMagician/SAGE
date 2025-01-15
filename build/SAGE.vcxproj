@@ -1,0 +1,540 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A8DDD2E0-FCE7-3C40-8E82-0074E8181D8E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>SAGE</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jerem\OneDrive\Desktop\SAGE\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SAGE.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SAGE</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jerem\OneDrive\Desktop\SAGE\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SAGE.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SAGE</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jerem\OneDrive\Desktop\SAGE\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">SAGE.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">SAGE</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jerem\OneDrive\Desktop\SAGE\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SAGE.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SAGE</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>C:\Users\jerem\OneDrive\Desktop\SAGE\headers;C:\Users\jerem\OneDrive\Desktop\SAGE\licenses;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\boost_1_55_0\boost;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\libiconv-1.9.2-1-src\src\libiconv\1.9.2\libiconv-1.9.2-src\include;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\sfml\include\SFML;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\wxwidgets\include\wx;$(IncludePath)</IncludePath>
+    <SourcePath>C:\Users\jerem\OneDrive\Desktop\SAGE;C:\Users\jerem\OneDrive\Desktop\SAGE\source;$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\jerem\OneDrive\Desktop\SAGE\precompile;C:\Users\jerem\OneDrive\Desktop\SAGE\x64\Debug;C:\Users\jerem\OneDrive\Desktop\SAGE\x64\Release;C:\Users\jerem\OneDrive\Desktop\SAGE\headers;C:\Users\jerem\OneDrive\Desktop\SAGE\Licenses;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\jerem\OneDrive\Desktop\SAGE\precompile;C:\Users\jerem\OneDrive\Desktop\SAGE\x64\Debug;C:\Users\jerem\OneDrive\Desktop\SAGE\x64\Release;C:\Users\jerem\OneDrive\Desktop\SAGE\headers;C:\Users\jerem\OneDrive\Desktop\SAGE\Licenses;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\jerem\OneDrive\Desktop\SAGE\precompile;C:\Users\jerem\OneDrive\Desktop\SAGE\x64\Debug;C:\Users\jerem\OneDrive\Desktop\SAGE\x64\Release;C:\Users\jerem\OneDrive\Desktop\SAGE\headers;C:\Users\jerem\OneDrive\Desktop\SAGE\Licenses;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/jerem/OneDrive/Desktop/SAGE/build/Debug/SAGE.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/jerem/OneDrive/Desktop/SAGE/build/Debug/SAGE.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\jerem\OneDrive\Desktop\SAGE\precompile;C:\Users\jerem\OneDrive\Desktop\SAGE\x64\Debug;C:\Users\jerem\OneDrive\Desktop\SAGE\x64\Release;C:\Users\jerem\OneDrive\Desktop\SAGE\headers;C:\Users\jerem\OneDrive\Desktop\SAGE\Licenses;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\jerem\OneDrive\Desktop\SAGE\precompile;C:\Users\jerem\OneDrive\Desktop\SAGE\x64\Debug;C:\Users\jerem\OneDrive\Desktop\SAGE\x64\Release;C:\Users\jerem\OneDrive\Desktop\SAGE\headers;C:\Users\jerem\OneDrive\Desktop\SAGE\Licenses;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\jerem\OneDrive\Desktop\SAGE\precompile;C:\Users\jerem\OneDrive\Desktop\SAGE\x64\Debug;C:\Users\jerem\OneDrive\Desktop\SAGE\x64\Release;C:\Users\jerem\OneDrive\Desktop\SAGE\headers;C:\Users\jerem\OneDrive\Desktop\SAGE\Licenses;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/jerem/OneDrive/Desktop/SAGE/build/Release/SAGE.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/jerem/OneDrive/Desktop/SAGE/build/Release/SAGE.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\jerem\OneDrive\Desktop\SAGE\precompile;C:\Users\jerem\OneDrive\Desktop\SAGE\x64\Debug;C:\Users\jerem\OneDrive\Desktop\SAGE\x64\Release;C:\Users\jerem\OneDrive\Desktop\SAGE\headers;C:\Users\jerem\OneDrive\Desktop\SAGE\Licenses;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\jerem\OneDrive\Desktop\SAGE\precompile;C:\Users\jerem\OneDrive\Desktop\SAGE\x64\Debug;C:\Users\jerem\OneDrive\Desktop\SAGE\x64\Release;C:\Users\jerem\OneDrive\Desktop\SAGE\headers;C:\Users\jerem\OneDrive\Desktop\SAGE\Licenses;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\jerem\OneDrive\Desktop\SAGE\precompile;C:\Users\jerem\OneDrive\Desktop\SAGE\x64\Debug;C:\Users\jerem\OneDrive\Desktop\SAGE\x64\Release;C:\Users\jerem\OneDrive\Desktop\SAGE\headers;C:\Users\jerem\OneDrive\Desktop\SAGE\Licenses;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/jerem/OneDrive/Desktop/SAGE/build/MinSizeRel/SAGE.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/jerem/OneDrive/Desktop/SAGE/build/MinSizeRel/SAGE.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\jerem\OneDrive\Desktop\SAGE\precompile;C:\Users\jerem\OneDrive\Desktop\SAGE\x64\Debug;C:\Users\jerem\OneDrive\Desktop\SAGE\x64\Release;C:\Users\jerem\OneDrive\Desktop\SAGE\headers;C:\Users\jerem\OneDrive\Desktop\SAGE\Licenses;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\jerem\OneDrive\Desktop\SAGE\precompile;C:\Users\jerem\OneDrive\Desktop\SAGE\x64\Debug;C:\Users\jerem\OneDrive\Desktop\SAGE\x64\Release;C:\Users\jerem\OneDrive\Desktop\SAGE\headers;C:\Users\jerem\OneDrive\Desktop\SAGE\Licenses;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\jerem\OneDrive\Desktop\SAGE\precompile;C:\Users\jerem\OneDrive\Desktop\SAGE\x64\Debug;C:\Users\jerem\OneDrive\Desktop\SAGE\x64\Release;C:\Users\jerem\OneDrive\Desktop\SAGE\headers;C:\Users\jerem\OneDrive\Desktop\SAGE\Licenses;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/jerem/OneDrive/Desktop/SAGE/build/RelWithDebInfo/SAGE.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/jerem/OneDrive/Desktop/SAGE/build/RelWithDebInfo/SAGE.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jerem\OneDrive\Desktop\SAGE\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/jerem/OneDrive/Desktop/SAGE/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jerem/OneDrive/Desktop/SAGE -BC:/Users/jerem/OneDrive/Desktop/SAGE/build --check-stamp-file C:/Users/jerem/OneDrive/Desktop/SAGE/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Users\jerem\OneDrive\Desktop\SAGE\build\CMakeFiles\3.31.4\CMakeCCompiler.cmake;C:\Users\jerem\OneDrive\Desktop\SAGE\build\CMakeFiles\3.31.4\CMakeCXXCompiler.cmake;C:\Users\jerem\OneDrive\Desktop\SAGE\build\CMakeFiles\3.31.4\CMakeRCCompiler.cmake;C:\Users\jerem\OneDrive\Desktop\SAGE\build\CMakeFiles\3.31.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jerem\OneDrive\Desktop\SAGE\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/jerem/OneDrive/Desktop/SAGE/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jerem/OneDrive/Desktop/SAGE -BC:/Users/jerem/OneDrive/Desktop/SAGE/build --check-stamp-file C:/Users/jerem/OneDrive/Desktop/SAGE/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Users\jerem\OneDrive\Desktop\SAGE\build\CMakeFiles\3.31.4\CMakeCCompiler.cmake;C:\Users\jerem\OneDrive\Desktop\SAGE\build\CMakeFiles\3.31.4\CMakeCXXCompiler.cmake;C:\Users\jerem\OneDrive\Desktop\SAGE\build\CMakeFiles\3.31.4\CMakeRCCompiler.cmake;C:\Users\jerem\OneDrive\Desktop\SAGE\build\CMakeFiles\3.31.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jerem\OneDrive\Desktop\SAGE\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/jerem/OneDrive/Desktop/SAGE/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jerem/OneDrive/Desktop/SAGE -BC:/Users/jerem/OneDrive/Desktop/SAGE/build --check-stamp-file C:/Users/jerem/OneDrive/Desktop/SAGE/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Users\jerem\OneDrive\Desktop\SAGE\build\CMakeFiles\3.31.4\CMakeCCompiler.cmake;C:\Users\jerem\OneDrive\Desktop\SAGE\build\CMakeFiles\3.31.4\CMakeCXXCompiler.cmake;C:\Users\jerem\OneDrive\Desktop\SAGE\build\CMakeFiles\3.31.4\CMakeRCCompiler.cmake;C:\Users\jerem\OneDrive\Desktop\SAGE\build\CMakeFiles\3.31.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jerem\OneDrive\Desktop\SAGE\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/jerem/OneDrive/Desktop/SAGE/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jerem/OneDrive/Desktop/SAGE -BC:/Users/jerem/OneDrive/Desktop/SAGE/build --check-stamp-file C:/Users/jerem/OneDrive/Desktop/SAGE/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Users\jerem\OneDrive\Desktop\SAGE\build\CMakeFiles\3.31.4\CMakeCCompiler.cmake;C:\Users\jerem\OneDrive\Desktop\SAGE\build\CMakeFiles\3.31.4\CMakeCXXCompiler.cmake;C:\Users\jerem\OneDrive\Desktop\SAGE\build\CMakeFiles\3.31.4\CMakeRCCompiler.cmake;C:\Users\jerem\OneDrive\Desktop\SAGE\build\CMakeFiles\3.31.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jerem\OneDrive\Desktop\SAGE\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\A_AboutDialog.cpp" />
+    <ClCompile Include="..\source\A_Animation.cpp" />
+    <ClCompile Include="..\source\A_Civs.cpp" />
+    <ClCompile Include="..\source\A_Constructor.cpp" />
+    <ClCompile Include="..\source\A_CustomComboBoxes.cpp" />
+    <ClCompile Include="..\source\A_CustomTextControls.cpp" />
+    <ClCompile Include="..\source\A_CustomWidgets.cpp" />
+    <ClCompile Include="..\source\A_DelayedMessageRelay.cpp" />
+    <ClCompile Include="..\source\A_General.cpp" />
+    <ClCompile Include="..\source\A_Graphics.cpp" />
+    <ClCompile Include="..\source\A_LinkedCheckBox.cpp" />
+    <ClCompile Include="..\source\A_LinkedControl.cpp" />
+    <ClCompile Include="..\source\A_Lists.cpp" />
+    <ClCompile Include="..\source\A_Loaders.cpp" />
+    <ClCompile Include="..\source\A_OpenDialog.cpp" />
+    <ClCompile Include="..\source\A_OpenSaveDialog.cpp" />
+    <ClCompile Include="..\source\A_Other.cpp" />
+    <ClCompile Include="..\source\A_PlayerColors.cpp" />
+    <ClCompile Include="..\source\A_Research.cpp" />
+    <ClCompile Include="..\source\A_SaveDialog.cpp" />
+    <ClCompile Include="..\source\A_SharedComboPopup.cpp" />
+    <ClCompile Include="..\source\A_Sounds.cpp" />
+    <ClCompile Include="..\source\A_Sprites.cpp" />
+    <ClCompile Include="..\source\A_Techs.cpp" />
+    <ClCompile Include="..\source\A_TechTrees.cpp" />
+    <ClCompile Include="..\source\A_TerrainBorders.cpp" />
+    <ClCompile Include="..\source\A_TerrainRestrictions.cpp" />
+    <ClCompile Include="..\source\A_Terrains.cpp" />
+    <ClCompile Include="..\source\A_UnitLine.cpp" />
+    <ClCompile Include="..\source\A_Units.cpp" />
+    <ClCompile Include="..\source\G_AttackOrArmor.cpp" />
+    <ClCompile Include="..\source\G_BinaFile.cpp" />
+    <ClCompile Include="..\source\G_Bird.cpp" />
+    <ClCompile Include="..\source\G_Building.cpp" />
+    <ClCompile Include="..\source\G_Civ.cpp" />
+    <ClCompile Include="..\source\G_Color.cpp" />
+    <ClCompile Include="..\source\G_Compressor.cpp" />
+    <ClCompile Include="..\source\G_Creatable.cpp" />
+    <ClCompile Include="..\source\G_DamageGraphic.cpp" />
+    <ClCompile Include="..\source\G_DatFile.cpp" />
+    <ClCompile Include="..\source\G_DeadFish.cpp" />
+    <ClCompile Include="..\source\G_DrsFile.cpp" />
+    <ClCompile Include="..\source\G_Graphic.cpp" />
+    <ClCompile Include="..\source\G_GraphicAttackSound.cpp" />
+    <ClCompile Include="..\source\G_GraphicDelta.cpp" />
+    <ClCompile Include="..\source\G_IFile.cpp" />
+    <ClCompile Include="..\source\G_ISerializable.cpp" />
+    <ClCompile Include="..\source\G_LangFile.cpp" />
+    <ClCompile Include="..\source\G_Logger.cpp" />
+    <ClCompile Include="..\source\G_MapDescription.cpp" />
+    <ClCompile Include="..\source\G_PalFile.cpp" />
+    <ClCompile Include="..\source\G_PlayerColour.cpp" />
+    <ClCompile Include="..\source\G_Projectile.cpp" />
+    <ClCompile Include="..\source\G_RandomMap.cpp" />
+    <ClCompile Include="..\source\G_Research.cpp" />
+    <ClCompile Include="..\source\G_ScnFile.cpp" />
+    <ClCompile Include="..\source\G_ScnPlayerData.cpp" />
+    <ClCompile Include="..\source\G_ScnResource.cpp" />
+    <ClCompile Include="..\source\G_SlpFile.cpp" />
+    <ClCompile Include="..\source\G_SlpFrame.cpp" />
+    <ClCompile Include="..\source\G_SmpFile.cpp" />
+    <ClCompile Include="..\source\G_SmpFrame.cpp" />
+    <ClCompile Include="..\source\G_SmxFile.cpp" />
+    <ClCompile Include="..\source\G_SmxFrame.cpp" />
+    <ClCompile Include="..\source\G_Sound.cpp" />
+    <ClCompile Include="..\source\G_SoundItem.cpp" />
+    <ClCompile Include="..\source\G_Techage.cpp" />
+    <ClCompile Include="..\source\G_TechageEffect.cpp" />
+    <ClCompile Include="..\source\G_TechTree.cpp" />
+    <ClCompile Include="..\source\G_Terrain.cpp" />
+    <ClCompile Include="..\source\G_TerrainBlock.cpp" />
+    <ClCompile Include="..\source\G_TerrainBorder.cpp" />
+    <ClCompile Include="..\source\G_TerrainCommon.cpp" />
+    <ClCompile Include="..\source\G_TerrainPassGraphic.cpp" />
+    <ClCompile Include="..\source\G_TerrainRestriction.cpp" />
+    <ClCompile Include="..\source\G_Trigger.cpp" />
+    <ClCompile Include="..\source\G_Type50.cpp" />
+    <ClCompile Include="..\source\G_Unit.cpp" />
+    <ClCompile Include="..\source\G_UnitCommand.cpp" />
+    <ClCompile Include="..\source\G_UnitHeader.cpp" />
+    <ClCompile Include="..\source\G_UnitLine.cpp" />
+    <ClCompile Include="..\source\G_zlib.cpp" />
+    <ClCompile Include="..\source\P_pcrio.c" />
+    <ClCompile Include="C:\Users\jerem\OneDrive\Desktop\SAGE\source\A_Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\headers\A_AboutDialog.h" />
+    <ClInclude Include="..\headers\A_AGE_Frame.h" />
+    <ClInclude Include="..\headers\A_BaseMainFrame.h" />
+    <ClInclude Include="..\headers\A_CustomComboBoxes.h" />
+    <ClInclude Include="..\headers\A_CustomTextControls.h" />
+    <ClInclude Include="..\headers\A_CustomWidgets.h" />
+    <ClInclude Include="..\headers\A_DataCopies.hpp" />
+    <ClInclude Include="..\headers\A_DelayedMessageRelay.h" />
+    <ClInclude Include="..\headers\A_EditableVersion.h" />
+    <ClInclude Include="..\headers\A_LinkedCheckBox.h" />
+    <ClInclude Include="..\headers\A_LinkedControl.h" />
+    <ClInclude Include="..\headers\A_Loaders.h" />
+    <ClInclude Include="..\headers\A_Main.h" />
+    <ClInclude Include="..\headers\A_OpenDialog.h" />
+    <ClInclude Include="..\headers\A_OpenSaveDialog.h" />
+    <ClInclude Include="..\headers\A_resource.h" />
+    <ClInclude Include="..\headers\A_SaveDialog.h" />
+    <ClInclude Include="..\headers\A_SharedComboPopup.h" />
+    <ClInclude Include="..\headers\A_Sprites.h" />
+    <ClInclude Include="..\headers\G_AttackOrArmor.h" />
+    <ClInclude Include="..\headers\G_BinaFile.h" />
+    <ClInclude Include="..\headers\G_Bird.h" />
+    <ClInclude Include="..\headers\G_Building.h" />
+    <ClInclude Include="..\headers\G_Civ.h" />
+    <ClInclude Include="..\headers\G_Color.h" />
+    <ClInclude Include="..\headers\G_Compressor.h" />
+    <ClInclude Include="..\headers\G_Creatable.h" />
+    <ClInclude Include="..\headers\G_DamageGraphic.h" />
+    <ClInclude Include="..\headers\G_DatFile.h" />
+    <ClInclude Include="..\headers\G_DeadFish.h" />
+    <ClInclude Include="..\headers\G_DrsFile.h" />
+    <ClInclude Include="..\headers\G_Graphic.h" />
+    <ClInclude Include="..\headers\G_GraphicAttackSound.h" />
+    <ClInclude Include="..\headers\G_GraphicDelta.h" />
+    <ClInclude Include="..\headers\G_IFile.h" />
+    <ClInclude Include="..\headers\G_ISerializable.h" />
+    <ClInclude Include="..\headers\G_LangFile.h" />
+    <ClInclude Include="..\headers\G_Logger.h" />
+    <ClInclude Include="..\headers\G_MapDescription.h" />
+    <ClInclude Include="..\headers\G_PalFile.h" />
+    <ClInclude Include="..\headers\G_PlayerColour.h" />
+    <ClInclude Include="..\headers\G_Projectile.h" />
+    <ClInclude Include="..\headers\G_RandomMap.h" />
+    <ClInclude Include="..\headers\G_Research.h" />
+    <ClInclude Include="..\headers\G_ResourceUsage.h" />
+    <ClInclude Include="..\headers\G_ScnFile.h" />
+    <ClInclude Include="..\headers\G_ScnPlayerData.h" />
+    <ClInclude Include="..\headers\G_ScnResource.h" />
+    <ClInclude Include="..\headers\G_SlpFile.h" />
+    <ClInclude Include="..\headers\G_SlpFrame.h" />
+    <ClInclude Include="..\headers\G_SmpFile.h" />
+    <ClInclude Include="..\headers\G_SmpFrame.h" />
+    <ClInclude Include="..\headers\G_SmxFile.h" />
+    <ClInclude Include="..\headers\G_SmxFrame.h" />
+    <ClInclude Include="..\headers\G_Sound.h" />
+    <ClInclude Include="..\headers\G_SoundItem.h" />
+    <ClInclude Include="..\headers\G_SpriteFile.h" />
+    <ClInclude Include="..\headers\G_Techage.h" />
+    <ClInclude Include="..\headers\G_TechageEffect.h" />
+    <ClInclude Include="..\headers\G_TechTree.h" />
+    <ClInclude Include="..\headers\G_Terrian.h" />
+    <ClInclude Include="..\headers\G_TerrianBlock.h" />
+    <ClInclude Include="..\headers\G_TerrianBorder.h" />
+    <ClInclude Include="..\headers\G_TerrianCommon.h" />
+    <ClInclude Include="..\headers\G_TerrianPassGraphic.h" />
+    <ClInclude Include="..\headers\G_TerrianRestriction.h" />
+    <ClInclude Include="..\headers\G_Trigger.h" />
+    <ClInclude Include="..\headers\G_Type50.h" />
+    <ClInclude Include="..\headers\G_Types.h" />
+    <ClInclude Include="..\headers\G_Unit.h" />
+    <ClInclude Include="..\headers\G_UnitCommand.h" />
+    <ClInclude Include="..\headers\G_UnitHeader.h" />
+    <ClInclude Include="..\headers\G_UnitLine.h" />
+    <ClInclude Include="..\headers\P_pcrdef.h" />
+    <ClInclude Include="..\headers\P_pcrio.h" />
+    <ClInclude Include="..\licenses\boost.h" />
+    <ClInclude Include="..\licenses\GPLv3.h" />
+    <ClInclude Include="..\licenses\LGPLv2.h" />
+    <ClInclude Include="..\licenses\liblz4.h" />
+    <ClInclude Include="..\licenses\SFML.h" />
+    <ClInclude Include="..\licenses\wxWidgets.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\jerem\OneDrive\Desktop\SAGE\build\ZERO_CHECK.vcxproj">
+      <Project>{C33CBAF9-5DA2-328B-9910-61A73335718F}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\AppIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="..\AppIcon24.xpm">
+      <FileType>Document</FileType>
+    </Resource>
+    <Resource Include="..\AppIcon32.xpm">
+      <FileType>Document</FileType>
+    </Resource>
+    <Resource Include="..\AppIcon64.xpm">
+      <FileType>Document</FileType>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\ReleaseNotes.txt" />
+    <Text Include="..\ReleaseNotesOld.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
