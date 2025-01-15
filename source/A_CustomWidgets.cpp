@@ -1,5 +1,6 @@
 #include "A_CustomWidgets.h"
 #include <wx/dc.h>
+#include <wx/event.h>
 
 float AScrolled::rate;
 
@@ -21,7 +22,7 @@ void ProperList::OnDrawBackground(wxDC& dc, const wxRect& rect, size_t n) const
 {
     if (IsSelected(n))
     {
-        dc.SetBrush(static wxBrush(wxSystemSettings::GetColour(wxSYS_COLOUR_HIGHLIGHT), wxBRUSHSTYLE_SOLID));
+        dc.SetBrush(wxBrush(wxSystemSettings::GetColour(wxSYS_COLOUR_HIGHLIGHT), wxBRUSHSTYLE_SOLID));
         dc.SetPen(*wxTRANSPARENT_PEN);
         dc.DrawRectangle(rect);
     }

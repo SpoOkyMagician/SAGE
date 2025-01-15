@@ -9,7 +9,6 @@
 #include <algorithm>
 #include <array>
 #include <chrono>
-#include <cstdint>
 #include <functional>
 #include <iomanip>
 #include <ios>
@@ -35,7 +34,6 @@
 #include <boost/lexical_cast.hpp>
 
 // wxWidgets
-#include <wx/app.h>
 #include <wx/arrstr.h>
 #include <wx/bitmap.h>
 #include <wx/button.h>
