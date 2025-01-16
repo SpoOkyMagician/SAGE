@@ -97,6 +97,9 @@ AScrolled::AScrolled(wxWindow* parent) :
         Bind(wxEVT_MOUSEWHEEL, [this](wxMouseEvent& event)
             {
                 float rotation = static_cast<float>(event.GetWheelRotation());
+                float scaled = rate * rotation + remainder;
+                int lines = static_cast<int>(scaled);
+                int pos;
                 if (remainder != 0)
                 {
                     if (remainder < 0 || rotation < 0)
@@ -104,11 +107,8 @@ AScrolled::AScrolled(wxWindow* parent) :
                         remainder = 0;
                     }
                 }
-                float scaled = rate * rotation + remainder;
-                int lines = static_cast<int>(scaled);
                 if (lines != 0)
                 {
-                    int pos;
                     remainder = scaled - static_cast<float>(lines);
                     GetViewStart(&pos, &pos);
                     Scroll(0, std::max(pos - lines, 0));
