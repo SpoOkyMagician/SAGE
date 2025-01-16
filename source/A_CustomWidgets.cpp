@@ -94,27 +94,30 @@ AScrolled::AScrolled(wxWindow* parent) :
     remainder(0)
     {
         // Smooth scrolling
-        Bind(wxEVT_MOUSEWHEEL, [this](wxMouseEvent& event)
+    Bind(wxEVT_MOUSEWHEEL, [this](wxMouseEvent& event)
+        {
+            /*
+            float rotation = static_cast<float>(event.GetWheelRotation());
+            float scaled = rate * rotation + remainder;
+            int lines = static_cast<int>(scaled);
+            int pos;
+            if (remainder != 0)
             {
-                float rotation = static_cast<float>(event.GetWheelRotation());
-                float scaled = rate * rotation + remainder;
-                int lines = static_cast<int>(scaled);
-                int pos;
-                if (remainder != 0)
+                if (remainder < 0 || rotation < 0)
                 {
-                    if (remainder < 0 || rotation < 0)
-                    {
-                        remainder = 0;
-                    }
+                    remainder = 0;
                 }
                 if (lines != 0)
                 {
-                    remainder = scaled - static_cast<float>(lines);
+                    remainder = scaled - (float)lines;
                     GetViewStart(&pos, &pos);
                     Scroll(0, std::max(pos - lines, 0));
                 }
-            });
+            }
+            */
+        });
 
         // Pixel perfect scroll rate.
         SetScrollRate(0, 1);
+
     }

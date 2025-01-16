@@ -537,5 +537,6 @@
     <None Include="AppIcon32.xpm" />
     <None Include="AppIcon64.xpm" />
     <None Include="AutoBackup.xpm" />
+    <None Include="cpp.hint" />
   </ItemGroup>
 </Project>

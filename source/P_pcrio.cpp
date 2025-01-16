@@ -40,8 +40,8 @@
 #include <string.h>
 #include <cstdint>
 
-#include "../headers/P_pcrdef.h"
-#include "../headers/P_pcrio.h"
+#include <P_pcrdef.h>
+#include <P_pcrio.h>
 
 #define INT32_HIGH_BYTE 2147483648u
 
@@ -53,7 +53,7 @@
 
 #define SECTION_NAME_RESOURCE ".rsrc"
 
-#define IMAGE_SCN_CNT_INITIALIZED_DATA       0x00000040  // Section contains initialized data.
+auto IMAGE_SCN_CNT_INITIALIZED_DATA = 0x00000040;  // Section contains initialized data.
 
 
 /*
@@ -61,7 +61,7 @@
  */
 // Calc the id of the strings root node on name level.
 #define RSRC_STRING_NAME_DIR_ID(string_id) (string_id/MAX_STRINGS_PER_LEAF + 1);
-#define RSRC_STRING_DATA_OFFSET(string_id) string_id % MAX_STRINGS_PER_LEAF
+#define RSRC_STRING_DATA_OFFSET(string_id) string_id % MAX_STRINGS_PER_LEAF;
 
 enum rsrc_node_identifier
 {
@@ -1433,7 +1433,7 @@ void pcr_free_resource_data(struct resource_data *resource_data)
 
 void pcr_update_language_info(struct language_info_array *lang_info_array, uint32_t language_id, uint32_t codepage, pcr_error_code *err)
 {
-  struct language_info key, *ptr = NULL;
+    struct language_info key, *ptr = NULL;
 
   key.lang.id = language_id;
   key.lang.codepage = codepage;
@@ -1478,7 +1478,7 @@ unsigned int pcr_get_language_count(const struct pcr_file *pf, uint32_t language
  */
 const struct pcr_language * pcr_get_language(const struct pcr_file *pf, uint32_t language_id)
 {
-  struct language_info key, *ptr = NULL;
+    struct language_info key, *ptr = NULL;
   const struct language_info_array *lang_info_array = pcr_get_language_info(pf);
   key.lang.id = language_id;
 
@@ -1509,7 +1509,7 @@ struct image_section_header * pcr_get_section_header(struct pcr_file *pfile, con
  */
 struct resource_tree_node* pcr_get_sub_id_node(const struct resource_tree_node *node, uint32_t id)
 {
-  struct resource_tree_node key, *kptr, **result = NULL;
+    struct resource_tree_node key, *kptr, **result = NULL;
 
   if (node && node->directory_table.number_of_id_entries > 0)
   {

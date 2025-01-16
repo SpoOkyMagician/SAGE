@@ -926,10 +926,10 @@ private:
 
     std::map<size_t, std::string> LangTxt;
     HINSTANCE LanguageDLL[3];
-    wxString TranslatedText(int ID, int Letters = 0);
     //void WriteTranslatedText(int ID, wxString Name);
     bool exportFrame = false;
     void LoadTXT(const wxString &filename);
+    wxString TranslatedText(int ID, int letters);
     bool LoadSLP(AGE_SLP*);
     void FrameToBitmap(AGE_SLP*, bool = false);
     void BitmapToSLP(AGE_SLP*);

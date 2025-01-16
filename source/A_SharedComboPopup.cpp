@@ -28,12 +28,12 @@
 // ============================================================================
 
 // time in milliseconds before partial completion buffer drops
-#define SCB_PARTIAL_COMPLETION_TIME 1000
+auto SCB_PARTIAL_COMPLETION_TIME = 1000;
 
 // If used, control itself is not custom paint using callback.
 // Even if this is not used, writable combo is never custom paint
 // until SetCustomPaintWidth is called
-#define SCB_STD_CONTROL_PAINT 0x1000
+ auto SCB_STD_CONTROL_PAINT = 0x1000;
 
 // ----------------------------------------------------------------------------
 // Callback flags (see wxOwnerDrawnComboBox::OnDrawItem)
@@ -41,13 +41,13 @@
 
 // when set, we are painting the selected item in control,
 // not in the popup
-#define SCB_PAINTING_CONTROL 0x0001
+ auto SCB_PAINTING_CONTROL = 0x0001;
 
 // when set, we are painting an item which should have
 // focus rectangle painted in the background. Text colour
 // and clipping region are then appropriately set in
 // the default OnDrawBackground implementation.
-#define SCB_PAINTING_SELECTED 0x0002
+ auto SCB_PAINTING_SELECTED = 0x0002;
 
 // ----------------------------------------------------------------------------
 // SharedComboPopup is a wxVListBox customized to act as a popup control

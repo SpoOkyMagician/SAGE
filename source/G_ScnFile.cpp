@@ -54,7 +54,7 @@ void ScnFile::extractRaw(const char *from, const char *to)
   ifs.read(readVersion, 4);
   ofs.write(readVersion, 4);
 
-  uint32_t headerLen;
+  uint32_t headerLen = 0;
 
   ifs.read(reinterpret_cast<char *>(&headerLen), 4);
   ofs.write(reinterpret_cast<char *>(&headerLen), 4);

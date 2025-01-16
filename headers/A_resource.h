@@ -2,7 +2,7 @@
 // Microsoft Visual C++ generated include file.
 // Used by AGE.rc
 //
-#define IDI_ICON1                       101
+auto IDI_ICON1 = 101;
 
 // Next default values for new objects
 //
