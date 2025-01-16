@@ -1,0 +1,10 @@
+^C:\USERS\JEREM\ONEDRIVE\DESKTOP\SAGE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jerem/OneDrive/Desktop/SAGE -BC:/Users/jerem/OneDrive/Desktop/SAGE --check-stamp-file C:/Users/jerem/OneDrive/Desktop/SAGE/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -89,6 +89,8 @@ bool ATabPage::Show(bool show)
     return result;
 }
 
+/*
+
 AScrolled::AScrolled(wxWindow* parent) :
     wxScrolled<APanel>(parent, wxID_ANY, wxDefaultPosition, wxDefaultSize, wxVSCROLL | wxTAB_TRAVERSAL),
     remainder(0)
@@ -115,3 +117,5 @@ AScrolled::AScrolled(wxWindow* parent) :
     // Pixel perfect scroll rate.
     SetScrollRate(0, 1);
 }
+
+*/

@@ -4,7 +4,6 @@
 // NO! STOP USING THIS FILE!!!
 
 // Standard
-#include <Stdafx.h>
 #include <cstdint>
 #include <algorithm>
 #include <array>

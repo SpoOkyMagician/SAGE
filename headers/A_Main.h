@@ -4,7 +4,6 @@
 // All headers in this header should be precompiled
 
 // Standard
-#include <Stdafx.h>
 #include <cstdint>
 #include <algorithm>
 #include <array>
