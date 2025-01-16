@@ -16,3 +16,5 @@ I kept the old files for now just in case they are still needed but, I rather no
 3: I went though all the code, checked for anything I could possibly fix myself from suggestions. (I hope I didn't break anything. Although, I think they are fine...)
 
 There is currently about 100 errors in the Release build. I could use your help with them.
+
+Update: Well, I got it down to like 5 errors but, I am stuck on this wx smooth scrolling code...
