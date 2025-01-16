@@ -18,3 +18,5 @@ I kept the old files for now just in case they are still needed but, I rather no
 There is currently about 100 errors in the Release build. I could use your help with them.
 
 Update: Well, I got it down to like 5 errors but, I am stuck on this wx smooth scrolling code...
+
+Update: So, I *think* its even closer now but, now I am getting object errors now... This is frustrating... I had to temp remove 2 files because apparently, you can't include those files or msvc shows an error... Anyway, I had to remake the solution because I decided to go with a 32 bit application instead of 64 bit. I painstakingly build everything from source as 32 bit and used those libs. I believe I included everything.
