@@ -89,33 +89,32 @@ bool ATabPage::Show(bool show)
     return result;
 }
 
-/*
-
 AScrolled::AScrolled(wxWindow* parent) :
     wxScrolled<APanel>(parent, wxID_ANY, wxDefaultPosition, wxDefaultSize, wxVSCROLL | wxTAB_TRAVERSAL),
     remainder(0)
-{
-    // Smooth scrolling
-    Bind(wxEVT_MOUSEWHEEL, [this](wxMouseEvent& event)
-        {
-            float rotation = static_cast<float>(event.GetWheelRotation());
-            if (remainder != 0 && (remainder < 0) ^ (rotation < 0))
+    {
+        // Smooth scrolling
+        Bind(wxEVT_MOUSEWHEEL, [this](wxMouseEvent& event)
             {
-                remainder = 0;
-            }
-            float scaled = rate * rotation + remainder;
-            int lines = static_cast<int>(scaled);
-            if (lines != 0)
-            {
-                int pos;
-                remainder = scaled - static_cast<float>(lines);
-                GetViewStart(&pos, &pos);
-                Scroll(0, std::max(pos - lines, 0));
-            }
-        });
+                float rotation = static_cast<float>(event.GetWheelRotation());
+                if (remainder != 0)
+                {
+                    if (remainder < 0 || rotation < 0)
+                    {
+                        remainder = 0;
+                    }
+                }
+                float scaled = rate * rotation + remainder;
+                int lines = static_cast<int>(scaled);
+                if (lines != 0)
+                {
+                    int pos;
+                    remainder = scaled - static_cast<float>(lines);
+                    GetViewStart(&pos, &pos);
+                    Scroll(0, std::max(pos - lines, 0));
+                }
+            });
 
-    // Pixel perfect scroll rate.
-    SetScrollRate(0, 1);
-}
-
-*/
+        // Pixel perfect scroll rate.
+        SetScrollRate(0, 1);
+    }
