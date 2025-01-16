@@ -425,6 +425,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="source\G_UnitHeader.cpp" />
     <ClCompile Include="source\G_UnitLine.cpp" />
     <ClCompile Include="source\G_zlib.cpp" />
+    <ClCompile Include="source\P_pcrio.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="headers\A_AboutDialog.h" />

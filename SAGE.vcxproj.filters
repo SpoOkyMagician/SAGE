@@ -253,6 +253,9 @@
     <ClCompile Include="source\G_zlib.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="source\P_pcrio.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\jerem\OneDrive\Desktop\SAGE\CMakeLists.txt" />
