@@ -20,10 +20,13 @@
 
 #ifndef GENIE_SOUND_H
 #define GENIE_SOUND_H
+
+/*
 #include "G_ISerializable.h"
 
 #include <vector>
 #include "G_SoundItem.h"
+*/
 
 namespace genie
 {

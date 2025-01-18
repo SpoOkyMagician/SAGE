@@ -18,6 +18,9 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+#include <I_Headers.h>
+
+/*
 #include "G_LangFile.h"
 
 #include <sstream>
@@ -26,6 +29,7 @@
 #include <errno.h>
 
 #include "P_pcrio.h"
+*/
 
 namespace genie
 {

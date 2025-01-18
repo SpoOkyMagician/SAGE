@@ -1,4 +1,8 @@
+#include <I_Headers.h>
+
+/*
 #include "A_SaveDialog.h"
+*/
 
 SaveDialog::SaveDialog(wxWindow* parent, const wxFont& font)
     : OpenSaveDialog(parent, "Save", this, font)

@@ -1,3 +1,6 @@
+#include <I_Headers.h>
+
+/*
 #include "A_Loaders.h"
 #include "G_SmpFile.h"
 #include "G_SmxFile.h"
@@ -6,6 +9,7 @@
 #include <wx/tokenzr.h>
 #include <wx/filename.h>
 #include <boost/lexical_cast.hpp>
+*/
 
 namespace GG
 {

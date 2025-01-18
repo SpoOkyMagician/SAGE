@@ -20,7 +20,10 @@
 
 #ifndef GENIE_GRAPHICATTACKSOUND_H
 #define GENIE_GRAPHICATTACKSOUND_H
+
+/*
 #include "G_ISerializable.h"
+*/
 
 namespace genie
 {

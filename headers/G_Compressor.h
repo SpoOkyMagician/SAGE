@@ -21,9 +21,11 @@
 #ifndef GENIE_COMPRESSOR_H
 #define GENIE_COMPRESSOR_H
 
+/*
 #include <iostream>
 #include <memory>
 #include "G_ISerializable.h"
+*/
 
 namespace boost {
 namespace iostreams {

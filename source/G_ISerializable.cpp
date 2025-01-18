@@ -18,10 +18,14 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+#include <I_Headers.h>
+
+/*
 #include "G_ISerializable.h"
 
 #include <cstring>
 
+*/
 namespace genie
 {
 

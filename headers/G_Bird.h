@@ -21,8 +21,10 @@
 #ifndef GENIE_BIRD_H
 #define GENIE_BIRD_H
 
+/*
 #include "G_ISerializable.h"
 #include "G_UnitCommand.h"
+*/
 
 namespace genie
 {

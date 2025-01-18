@@ -159,7 +159,6 @@
 #include "wx/dcbuffer.h"
 #include "wx/dcclient.h"
 #include "wx/defs.h"
-
 #include "wx/dialog.h"
 #include "wx/dir.h"
 #include "wx/display.h"

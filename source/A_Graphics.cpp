@@ -1,8 +1,12 @@
+#include <I_Headers.h>
+
+/*
 #include "A_AGE_Frame.h"
 #include "A_Loaders.h"
 // #include <boost/lexical_cast.hpp>
 #include <wx/generic/textdlgg.h>
 #include <wx/tokenzr.h>
+*/
 
 const wxString MirrorHelp = "Angle count clockwise from east after mirroring starts.\n"
 "Angles before south are mirrored too.\nFrom the graphics scanner, if the graphic mirror is > 0,\n"

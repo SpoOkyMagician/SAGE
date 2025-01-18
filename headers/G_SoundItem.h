@@ -20,7 +20,10 @@
 
 #ifndef GENIE_SOUNDITEM_H
 #define GENIE_SOUNDITEM_H
+
+/*
 #include "G_ISerializable.h"
+*/
 
 namespace genie
 {

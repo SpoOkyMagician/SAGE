@@ -20,6 +20,7 @@
 #ifndef GENIE_SLPFRAME_H
 #define GENIE_SLPFRAME_H
 
+/*
 #include "G_ISerializable.h"
 #include "G_Logger.h"
 
@@ -29,6 +30,7 @@
 #include <stdint.h>
 
 #include "G_PalFile.h"
+*/
 
 namespace genie
 {

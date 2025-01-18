@@ -1,5 +1,9 @@
+#include <I_Headers.h>
+
+/*
 #include "A_AGE_Frame.h"
 #include <boost/lexical_cast.hpp>
+*/
 
 std::vector<std::function<wxString(genie::BuildingConnection*)>> TechTreeBuildingFilterFunctions;
 std::vector<std::function<wxString(genie::UnitConnection*)>> TechTreeUnitFilterFunctions;

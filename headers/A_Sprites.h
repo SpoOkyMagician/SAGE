@@ -1,9 +1,12 @@
 #pragma once
+
+/*
 #include <map>
 #include <wx/bitmap.h>
 #include <SFML/Audio/Sound.hpp>
 #include <SFML/Audio/SoundBuffer.hpp>
 #include "G_SpriteFile.h"
+*/
 
 const float PI2A = 6.28319f, PI2 = 6.2832f;
 

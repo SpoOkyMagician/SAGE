@@ -1,8 +1,12 @@
+#include <I_Headers.h>
+
+/*
 #include "A_AGE_Frame.h"
 #include "A_EditableVersion.h"
 #include <boost/lexical_cast.hpp>
 #include <wx/combobox.h>
 #include <wx/checkbox.h>
+*/
 
 wxString AGE_Frame::GetEffectName(int index)
 {

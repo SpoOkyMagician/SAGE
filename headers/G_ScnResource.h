@@ -22,9 +22,11 @@
 #ifndef GENIE_SCN_RESOURCE_H
 #define GENIE_SCN_RESOURCE_H
 
+/*
 #include "G_ISerializable.h"
 
 #include <stdint.h>
+*/
 
 namespace genie
 {

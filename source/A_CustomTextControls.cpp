@@ -1,8 +1,12 @@
+#include <I_Headers.h>
+
+/*
 #include "A_BaseMainFrame.h"
 #include "A_CustomTextControls.h"
 #include "A_LinkedControl.h"
 // #include <boost/lexical_cast.hpp>
 #include <iomanip>
+*/
 
 const wxString BATCHWARNING = "Use b+[x], b-[x], b*[x] or b/[x]\nwhere [x] is a number.";
 const wxString BWTITLE = "Incorrect batch script!";

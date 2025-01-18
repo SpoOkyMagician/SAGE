@@ -1,5 +1,8 @@
 #pragma once
+
+/*
 #include <wx/event.h>
+*/
 
 class AGETextCtrl;
 class LinkedControl

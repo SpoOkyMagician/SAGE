@@ -17,11 +17,15 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+#include <I_Headers.h>
+
+/*
 #include "G_Logger.h"
 
 #include <cassert>
 #include <iostream>
 #include <fstream>
+*/
 
 namespace genie
 {

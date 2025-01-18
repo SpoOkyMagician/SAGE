@@ -1,7 +1,12 @@
 #pragma once
+
+#include <I_Headers.h>
+
+/*
 #include <wx/frame.h>
 #include "A_DataCopies.hpp"
 #include "A_DelayedMessageRelay.h"
+*/
 
 class BaseMainFrame : public wxFrame
 {

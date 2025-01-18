@@ -20,7 +20,10 @@
 
 #ifndef GENIE_GRAPHICDELTA_H
 #define GENIE_GRAPHICDELTA_H
+
+/*
 #include "G_ISerializable.h"
+*/
 
 namespace genie
 {

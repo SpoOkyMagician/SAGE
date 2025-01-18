@@ -19,9 +19,13 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+#include <I_Headers.h>
+
+/*
 #include "G_ScnFile.h"
 
 #include <math.h>
+*/
 
 namespace genie
 {

@@ -17,6 +17,9 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+#include <I_Headers.h>
+
+/*
 #include "G_DrsFile.h"
 
 #include <string>
@@ -25,6 +28,7 @@
 #include "G_ISerializable.h"
 
 //#include <file/BinaFile.h>
+*/
 
 namespace genie
 {

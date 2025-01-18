@@ -22,8 +22,10 @@
 #ifndef GENIE_MAP_DESCRIPTION_H
 #define GENIE_MAP_DESCRIPTION_H
 
+/*
 #include "G_ISerializable.h"
 #include <stdint.h>
+*/
 
 namespace genie
 {

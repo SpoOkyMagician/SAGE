@@ -21,7 +21,9 @@
 #ifndef GENIE_BUILDING_H
 #define GENIE_BUILDING_H
 
+/*
 #include "G_ISerializable.h"
+*/
 
 namespace genie
 {

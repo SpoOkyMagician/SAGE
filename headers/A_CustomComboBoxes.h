@@ -1,7 +1,12 @@
 #pragma once
+
+#include <I_Headers.h>
+
+/*
 #include "A_CustomTextControls.h"
 #include "A_LinkedControl.h"
 #include "A_SharedComboPopup.h"
+*/
 
 class AGEComboBox : public wxComboCtrl
 {

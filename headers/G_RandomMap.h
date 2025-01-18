@@ -19,7 +19,10 @@
 
 #ifndef GENIE_UNKNOWN_H
 #define GENIE_UNKNOWN_H
+
+/*
 #include "G_ISerializable.h"
+*/
 
 namespace genie
 {

@@ -1,5 +1,9 @@
+#include <I_Headers.h>
+
+/*
 #include "A_Loaders.h"
 #include "A_Sprites.h"
+*/
 
 void AGE_SLP::reload(void)
 {

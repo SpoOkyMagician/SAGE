@@ -20,8 +20,11 @@
 
 #ifndef GENIE_TERRAINBORDER_H
 #define GENIE_TERRAINBORDER_H
+
+/*
 #include "G_ISerializable.h"
 #include <G_TerrianCommon.h>
+*/
 
 namespace genie
 {

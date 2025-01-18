@@ -22,6 +22,7 @@
 #ifndef GENIE_SCNFILE_H
 #define GENIE_SCNFILE_H
 
+/*
 #include <stdint.h>
 
 #include "G_IFile.h"
@@ -30,6 +31,7 @@
 #include "G_ScnPlayerData.h"
 #include "G_MapDescription.h"
 #include "G_Trigger.h"
+*/
 
 namespace genie
 {

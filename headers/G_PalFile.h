@@ -17,16 +17,17 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-
 #ifndef GENIE_PALFILE_H
 #define GENIE_PALFILE_H
 
+/*
 #include <string>
 #include <vector>
 #include <stdint.h>
 #include <memory>
 
 #include "G_IFile.h"
+*/
 
 namespace genie
 {

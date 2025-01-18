@@ -19,8 +19,10 @@
 #ifndef GENIE_LOGGER_H
 #define GENIE_LOGGER_H
 
+/*
 #include <string>
 #include <stdarg.h>
+*/
 
 namespace genie
 {

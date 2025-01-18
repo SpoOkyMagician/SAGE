@@ -1,4 +1,8 @@
+#include <I_Headers.h>
+
+/*
 #include "A_AGE_Frame.h"
+*/
 
 wxString AGE_Frame::GetTerrainRestrictionName(int index)
 {

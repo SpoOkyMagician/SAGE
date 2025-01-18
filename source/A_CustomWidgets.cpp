@@ -1,6 +1,10 @@
+#include <I_Headers.h>
+
+/*
 #include "A_CustomWidgets.h"
 #include <wx/dc.h>
 #include <wx/event.h>
+*/
 
 float AScrolled::rate;
 

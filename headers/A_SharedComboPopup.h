@@ -9,11 +9,13 @@
 #ifndef _SHAREDCOMBO_H_
 #define _SHAREDCOMBO_H_
 
+/*
 #include "wx/defs.h"
 
 #include "wx/combo.h"
 #include "wx/vlbox.h"
 #include "wx/timer.h"
+*/
 
 // ----------------------------------------------------------------------------
 // SharedComboPopup is a wxVListBox customized to act as a popup control.

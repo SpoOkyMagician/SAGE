@@ -20,7 +20,10 @@
 
 #ifndef GENIE_ATTACKORARMOR_H
 #define GENIE_ATTACKORARMOR_H
+
+/*
 #include "G_ISerializable.h"
+*/
 
 namespace genie
 {

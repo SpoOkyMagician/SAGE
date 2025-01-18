@@ -1,5 +1,7 @@
 #pragma once
 
+#include <I_Headers.h>
+
 enum EditableVersion
 {
     EV_ORIG,

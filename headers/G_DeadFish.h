@@ -21,7 +21,9 @@
 #ifndef GENIE_DEADFISH_H
 #define GENIE_DEADFISH_H
 
+/*
 #include "G_ISerializable.h"
+*/
 
 namespace genie
 {

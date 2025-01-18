@@ -1,8 +1,12 @@
+#include <I_Headers.h>
+
+/*
 #include "A_CustomWidgets.h"
 #include "A_OpenDialog.h"
 #include "G_DatFile.h"
 #include <boost/lexical_cast.hpp>
 #include <wx/textctrl.h>
+*/
 
 OpenDialog::OpenDialog(wxWindow* parent, const wxFont& font)
     : OpenSaveDialog(parent, "Open", this, font)

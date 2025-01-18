@@ -20,6 +20,8 @@
 
 #ifndef GENIE_UNIT_H
 #define GENIE_UNIT_H
+
+/*
 #include "G_ISerializable.h"
 #include "G_DamageGraphic.h"
 #include "G_UnitCommand.h"
@@ -31,6 +33,7 @@
 #include "G_Creatable.h"
 #include "G_Building.h"
 #include "G_ResourceUsage.h"
+*/
 
 namespace genie
 {

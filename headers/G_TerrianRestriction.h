@@ -20,9 +20,12 @@
 
 #ifndef GENIE_TERRAINRESTRICTION_H
 #define GENIE_TERRAINRESTRICTION_H
+
+/*
 #include <vector>
 #include "G_ISerializable.h"
 #include <G_TerrianPassGraphic.h>
+*/
 
 namespace genie
 {

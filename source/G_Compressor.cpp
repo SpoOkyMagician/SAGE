@@ -17,6 +17,9 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+#include <I_Headers.h>
+
+/*
 #include "G_Compressor.h"
 
 #include <vector>
@@ -26,6 +29,7 @@
 #include <boost/iostreams/filter/zlib.hpp>
 #include <boost/iostreams/device/back_inserter.hpp>
 #include <boost/iostreams/copy.hpp>
+*/
 
 using namespace boost;
 using namespace boost::iostreams;

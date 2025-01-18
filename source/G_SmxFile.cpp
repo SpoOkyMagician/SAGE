@@ -16,6 +16,9 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+#include <I_Headers.h>
+
+/*
 #include "G_SmxFile.h"
 
 #include <stdexcept>
@@ -23,6 +26,7 @@
 
 #include "G_SmxFrame.h"
 #include "G_PalFile.h"
+*/
 
 namespace genie
 {

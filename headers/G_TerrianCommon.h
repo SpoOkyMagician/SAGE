@@ -19,7 +19,10 @@
 
 #ifndef GENIE_TERRAINCOMMON_H
 #define GENIE_TERRAINCOMMON_H
+
+/*
 #include "G_ISerializable.h"
+*/
 
 namespace genie
 {

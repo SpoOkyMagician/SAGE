@@ -1,4 +1,8 @@
 #pragma once
+
+#include <I_Headers.h>
+
+/*
 #include <vector>
 #include <wx/panel.h>
 #include <wx/scrolwin.h>
@@ -45,6 +49,7 @@
 #include <wx/toolbar.h>
 #include <wx/window.h>
 #include <wx/wrapsizer.h>
+*/
 
 class ProperList : public wxVListBox
 {

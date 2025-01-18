@@ -1,7 +1,11 @@
+#include <I_Headers.h>
+
+/*
 #include "A_AGE_Frame.h"
 #include "A_Loaders.h"
 #include <wx/log.h>
 #include <boost/lexical_cast.hpp>
+*/
 
 std::vector<std::function<wxString(genie::Terrain*)>> TerrainFilterFunctions;
 bool UseTerrainName;

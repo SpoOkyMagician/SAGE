@@ -21,8 +21,10 @@
 #ifndef GENIE_CREATABLE_H
 #define GENIE_CREATABLE_H
 
+/*
 #include "G_ISerializable.h"
 #include "G_ResourceUsage.h"
+*/
 
 namespace genie
 {

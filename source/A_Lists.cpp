@@ -1,8 +1,12 @@
+#include <I_Headers.h>
+
+/*
 #include "A_AGE_Frame.h"
 #include "A_EditableVersion.h"
 #include <wx/fileconf.h>
 // #include <boost/lexical_cast.hpp>
 #include <wx/tokenzr.h>
+*/
 
 void AGE_Frame::FillListsBasedOnGameVersion()
 {

@@ -19,10 +19,13 @@
 
 #ifndef GENIE_TERRAINBLOCK_H
 #define GENIE_TERRAINBLOCK_H
+
+/*
 #include "G_ISerializable.h"
 #include <G_TerrianCommon.h>
 #include <G_Terrian.h>
 #include <G_TerrianBorder.h>
+*/
 
 namespace genie
 {

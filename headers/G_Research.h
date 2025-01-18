@@ -20,8 +20,11 @@
 
 #ifndef GENIE_RESEARCH_H
 #define GENIE_RESEARCH_H
+
+/*
 #include "G_ISerializable.h"
 #include "G_ResourceUsage.h"
+*/
 
 namespace genie
 {

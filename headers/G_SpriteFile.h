@@ -19,7 +19,9 @@
 #ifndef GENIE_SPRITEFILE_H
 #define GENIE_SPRITEFILE_H
 
+/*
 #include <memory>
+*/
 
 namespace genie
 {

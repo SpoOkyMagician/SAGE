@@ -21,9 +21,11 @@
 #ifndef GENIE_SCN_TRIGGER_H
 #define GENIE_SCN_TRIGGER_H
 
+/*
 #include "G_ISerializable.h"
 
 #include <stdint.h>
+*/
 
 namespace genie
 {

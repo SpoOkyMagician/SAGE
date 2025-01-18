@@ -1,8 +1,13 @@
 #pragma once
+
+#include <I_Headers.h>
+
+/*
 #include <cstdint>
 #include <utility>
 #include <vector>
 #include "G_DatFile.h"
+*/
 
 class GraphicCopies
 {

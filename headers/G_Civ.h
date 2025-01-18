@@ -20,8 +20,11 @@
 
 #ifndef GENIE_CIV_H
 #define GENIE_CIV_H
+
+/*
 #include "G_ISerializable.h"
 #include "G_Unit.h"
+*/
 
 namespace genie
 {

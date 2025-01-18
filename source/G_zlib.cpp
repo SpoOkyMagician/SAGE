@@ -14,6 +14,9 @@
 // than using it (possibly importing code).
 #define BOOST_IOSTREAMS_SOURCE 
 
+#include <I_Headers.h>
+
+/*
 #include <boost/throw_exception.hpp>
 #include <boost/iostreams/detail/config/dyn_link.hpp>
 #include <boost/iostreams/filter/zlib.hpp> 
@@ -21,6 +24,8 @@
                     // To configure Boost to work with zlib, see the 
                     // installation instructions here:
                     // http://boost.org/libs/iostreams/doc/index.html?path=7
+
+*/
 
 namespace boost {
     namespace iostreams {

@@ -1,3 +1,6 @@
+#include <I_Headers.h>
+
+/*
 #include "A_AGE_Frame.h"
 #include "A_EditableVersion.h"
 #include "A_Loaders.h"
@@ -6,6 +9,7 @@
 #include <wx/generic/textdlgg.h>
 #include <wx/dir.h>
 #include <wx/menu.h>
+*/
 
 const genie::Color ColorNotFound(74, 65, 42, 255);
 

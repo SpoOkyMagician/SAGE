@@ -22,8 +22,10 @@
 #ifndef GENIE_TYPE50_H
 #define GENIE_TYPE50_H
 
+/*
 #include "G_ISerializable.h"
 #include "G_AttackOrArmor.h"
+*/
 
 namespace genie
 {

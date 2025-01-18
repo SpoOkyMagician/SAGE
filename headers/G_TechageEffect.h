@@ -20,7 +20,10 @@
 
 #ifndef GENIE_TECHAGEEFFECT_H
 #define GENIE_TECHAGEEFFECT_H
+
+/*
 #include "G_ISerializable.h"
+*/
 
 namespace genie
 {

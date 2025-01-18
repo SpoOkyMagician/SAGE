@@ -20,7 +20,10 @@
 
 #ifndef GENIE_TECHTREE_H
 #define GENIE_TECHTREE_H
+
+/*
 #include "G_ISerializable.h"
+*/
 
 namespace genie
 {

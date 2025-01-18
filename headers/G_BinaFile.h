@@ -19,8 +19,10 @@
 #ifndef GENIE_BINAFILE_H
 #define GENIE_BINAFILE_H
 
+/*
 #include "G_ISerializable.h"
 #include "G_PalFile.h"
+*/
 
 namespace genie
 {

@@ -1,7 +1,12 @@
 #pragma once
+
+#include <I_Headers.h>
+
+/*
 #include <string>
 #include <vector>
 #include <wx/textctrl.h>
+*/
 
 //  The purpose of these custom text controls is that you get specified error messages
 //  when your mouse cursor focus gets off from a data edit box.

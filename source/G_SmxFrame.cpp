@@ -16,6 +16,9 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+#include <I_Headers.h>
+
+/*
 #include "G_SmxFrame.h"
 
 #include <iostream>
@@ -24,6 +27,7 @@
 #include <chrono>
 
 #include "G_Color.h"
+*/
 
 namespace genie
 {

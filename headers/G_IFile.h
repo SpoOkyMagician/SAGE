@@ -21,9 +21,11 @@
 #ifndef GENIE_IFILE_H
 #define GENIE_IFILE_H
 
+/*
 #include "G_ISerializable.h"
 
 #include <fstream>
+*/
 
 namespace genie
 {

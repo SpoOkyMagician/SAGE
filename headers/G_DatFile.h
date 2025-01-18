@@ -21,6 +21,7 @@
 #ifndef GENIE_DATFILE_H
 #define GENIE_DATFILE_H
 
+/*
 #include <string>
 #include <iostream>
 
@@ -41,6 +42,7 @@
 #include "G_UnitLine.h"
 #include "G_TechTree.h"
 #include "G_RandomMap.h"
+*/
 
 namespace boost { namespace iostreams { struct zlib_params; } }
 

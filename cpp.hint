@@ -14,3 +14,4 @@
 #define wxCRT_OpenW
 #define wxCRT_AccessW
 #define wxCRT_ChmodW
+#define IMPLEMENT_APP(app) wxIMPLEMENT_APP(app);

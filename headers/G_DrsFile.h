@@ -20,6 +20,7 @@
 #ifndef GENIE_DRSFILE_H
 #define GENIE_DRSFILE_H
 
+/*
 #include <vector>
 #include <list>
 #include <unordered_map>
@@ -28,6 +29,7 @@
 #include "G_IFile.h"
 #include "G_SlpFile.h"
 #include "G_BinaFile.h"
+*/
 
 namespace genie
 {

@@ -1,6 +1,10 @@
+#include <I_Headers.h>
+
+/*
 #include "A_AGE_Frame.h"
 #include "G_Color.h"
 #include <boost/lexical_cast.hpp>
+*/
 
 void AGE_Frame::OnPlayerColorsSearch(wxCommandEvent& event)
 {

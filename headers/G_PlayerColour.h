@@ -20,7 +20,10 @@
 
 #ifndef GENIE_PLAYERCOLOUR_H
 #define GENIE_PLAYERCOLOUR_H
+
+/*
 #include "G_ISerializable.h"
+*/
 
 namespace genie
 {

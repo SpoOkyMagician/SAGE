@@ -19,6 +19,7 @@
 #ifndef GENIE_SMPFILE_H
 #define GENIE_SMPFILE_H
 
+/*
 #include <istream>
 #include <vector>
 
@@ -27,6 +28,7 @@
 #include "G_PalFile.h"
 #include "G_SmpFrame.h"
 #include "G_SpriteFile.h"
+*/
 
 namespace genie
 {

@@ -20,9 +20,12 @@
 
 #ifndef GENIE_GRAPHIC_H
 #define GENIE_GRAPHIC_H
+
+/*
 #include "G_ISerializable.h"
 #include "G_GraphicDelta.h"
 #include "G_GraphicAttackSound.h"
+*/
 
 namespace genie
 {

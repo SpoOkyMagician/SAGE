@@ -14,6 +14,9 @@
 // headers
 // ----------------------------------------------------------------------------
 
+#include <I_Headers.h>
+
+/*
 #include "A_SharedComboPopup.h"
 #include "wx/log.h"
 #include "wx/combobox.h"
@@ -22,6 +25,7 @@
 #include "wx/dialog.h"
 #include "wx/textctrl.h"
 #include "wx/combo.h"
+*/
 
 // ============================================================================
 // implementation

@@ -20,9 +20,11 @@
 #ifndef GENIE_LANGFILE_H
 #define GENIE_LANGFILE_H
 
+/*
 #include <G_IFile.h>
 #include <G_Logger.h>
 #include <iconv.h> //Sorry no iconv for msvc
+*/
 
 struct pcr_file;
 

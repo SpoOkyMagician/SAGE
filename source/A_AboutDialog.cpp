@@ -1,3 +1,6 @@
+#include <I_Headers.h>
+
+/*
 #include "A_AboutDialog.h"
 #include "AppIcon64.xpm"
 #include "A_CustomWidgets.h"
@@ -8,6 +11,7 @@
 #include "licenses\SFML.h"
 #include "licenses\wxWidgets.h"
 #include <A_Main.h>
+*/
 
 const wxString AboutDialog::AGE_VER = "2024.5.9";
 

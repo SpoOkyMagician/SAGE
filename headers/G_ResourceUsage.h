@@ -20,7 +20,10 @@
 
 #ifndef GENIE_RESOURCEUSAGE_H
 #define GENIE_RESOURCEUSAGE_H
+
+/*
 #include "G_ISerializable.h"
+*/
 
 namespace genie
 {

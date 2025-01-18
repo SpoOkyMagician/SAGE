@@ -1,4 +1,7 @@
 #pragma once
+
+
+/*
 #include <list>
 #include <string>
 #include <unordered_map>
@@ -8,6 +11,7 @@
 #include "G_Color.h"
 #include "G_DrsFile.h"
 #include "G_SpriteFile.h"
+*/
 
 namespace GG
 {

@@ -1,5 +1,8 @@
 #pragma once
 
+#include <I_Headers.h>
+
+/*
 // External headers
 #include <array>
 #include <chrono>
@@ -29,11 +32,14 @@
 #include "G_SlpFile.h"
 #include "G_SmpFile.h"
 #include "G_SmxFile.h"
+*/
 
 #ifndef WIN32
 #define HINSTANCE ssize_t
 #endif
+/*
 #include <A_OpenDialog.h>
+*/
 
 const unsigned short maxStringlength = 0x7FFF;
 

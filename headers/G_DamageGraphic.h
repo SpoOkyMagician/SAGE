@@ -20,7 +20,10 @@
 
 #ifndef GENIE_DAMAGEGRAPHIC_H
 #define GENIE_DAMAGEGRAPHIC_H
+
+/*
 #include "G_ISerializable.h"
+*/
 
 namespace genie
 {

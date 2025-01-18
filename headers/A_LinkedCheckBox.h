@@ -1,6 +1,9 @@
 #pragma once
+
+/*
 #include <wx/checkbox.h>
 #include "A_LinkedControl.h"
+*/
 
 class LinkedCheckBox : public wxCheckBox, public LinkedControl
 {

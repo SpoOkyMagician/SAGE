@@ -1,3 +1,6 @@
+#include <I_Headers.h>
+
+/*
 #include "A_CustomWidgets.h"
 #include "A_EditableVersion.h"
 #include "A_OpenSaveDialog.h"
@@ -5,6 +8,7 @@
 #include <wx/msgdlg.h>
 #include <wx/msw/registry.h>
 #include <wx/textctrl.h>
+*/
 
 OpenSaveDialog::OpenSaveDialog(wxWindow* parent, const wxString& title, wxDialog* slave, const wxFont& font)
     : wxDialog(parent, -1, title + " files...", wxDefaultPosition, wxSize(500, 250), wxDEFAULT_DIALOG_STYLE | wxRESIZE_BORDER | wxNO_DEFAULT)

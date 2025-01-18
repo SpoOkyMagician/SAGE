@@ -1,10 +1,13 @@
 #pragma once
+
+/*
 #include <vector>
 #include <wx/checkbox.h>
 #include <wx/dialog.h>
 #include <wx/filepicker.h>
 #include <wx/odcombo.h>
 #include <wx/sizer.h>
+*/
 
 class PairedCheckBox: public wxCheckBox
 {

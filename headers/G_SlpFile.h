@@ -20,6 +20,7 @@
 #ifndef GENIE_SLPFILE_H
 #define GENIE_SLPFILE_H
 
+/*
 #include <istream>
 #include <vector>
 
@@ -28,6 +29,7 @@
 #include "G_PalFile.h"
 #include "G_SlpFrame.h"
 #include "G_SpriteFile.h"
+*/
 
 namespace genie
 {

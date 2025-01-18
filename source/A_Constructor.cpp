@@ -1,3 +1,6 @@
+#include <I_Headers.h>
+
+/*
 #include "A_AboutDialog.h"
 #include "A_AGE_Frame.h"
 #include "A_EditableVersion.h"
@@ -23,6 +26,7 @@
 #include <wx/menu.h>
 
 //#include "genie/util/Logger.h"
+*/
 
 BaseMainFrame::BaseMainFrame(const wxString& title) :
     wxFrame(nullptr, wxID_ANY, title)

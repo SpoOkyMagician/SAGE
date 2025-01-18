@@ -37,10 +37,12 @@
 #ifndef PCRIO_H
 #define PCRIO_H
 
+/*
 #include <stdint.h>
 #include <stddef.h>
 
 #include "P_pcrdef.h"
+*/
 
 #define PCR_SUCCESS(x) (x == PCR_ERROR_NONE)
 #define PCR_FAILURE(x) (x != PCR_ERROR_NONE)

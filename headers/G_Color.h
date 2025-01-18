@@ -16,11 +16,12 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-
 #ifndef GENIE_COLOR_H
 #define GENIE_COLOR_H
 
+/*
 #include <stdint.h>
+*/
 
 namespace genie
 {

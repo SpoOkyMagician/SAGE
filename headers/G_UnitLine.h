@@ -20,9 +20,12 @@
 
 #ifndef GENIE_UNITLINE_H
 #define GENIE_UNITLINE_H
+
+/*
 #include "G_ISerializable.h"
 
 #include <vector>
+*/
 
 namespace genie
 {

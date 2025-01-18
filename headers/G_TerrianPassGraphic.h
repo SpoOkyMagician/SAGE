@@ -20,7 +20,10 @@
 
 #ifndef GENIE_TERRAINPASSGRAPHIC_H
 #define GENIE_TERRAINPASSGRAPHIC_H
+
+/*
 #include "G_ISerializable.h"
+*/
 
 namespace genie
 {

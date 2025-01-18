@@ -273,6 +273,12 @@
     <Filter Include="old_precompile">
       <UniqueIdentifier>{de2a446d-5ef0-469d-afcc-ad537a3c8a26}</UniqueIdentifier>
     </Filter>
+    <Filter Include="global_include">
+      <UniqueIdentifier>{e595f62e-5470-486a-b929-db74cfca4349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="misc">
+      <UniqueIdentifier>{1f2900ca-7a28-438a-a99c-dcc94734b157}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="headers\A_DataCopies.hpp">
@@ -309,9 +315,6 @@
       <Filter>headers</Filter>
     </ClInclude>
     <ClInclude Include="headers\A_Loaders.h">
-      <Filter>headers</Filter>
-    </ClInclude>
-    <ClInclude Include="headers\A_Main.h">
       <Filter>headers</Filter>
     </ClInclude>
     <ClInclude Include="headers\A_OpenDialog.h">
@@ -500,26 +503,29 @@
     <ClInclude Include="headers\P_pcrio.h">
       <Filter>headers</Filter>
     </ClInclude>
-    <ClInclude Include="licenses\boost.h">
+    <ClInclude Include="licenses\L_boost.h">
       <Filter>licenses</Filter>
     </ClInclude>
-    <ClInclude Include="licenses\GPLv3.h">
+    <ClInclude Include="licenses\L_GPLv3.h">
       <Filter>licenses</Filter>
     </ClInclude>
-    <ClInclude Include="licenses\LGPLv2.h">
+    <ClInclude Include="licenses\L_LGPLv2.h">
       <Filter>licenses</Filter>
     </ClInclude>
-    <ClInclude Include="licenses\liblz4.h">
+    <ClInclude Include="licenses\L_liblz4.h">
       <Filter>licenses</Filter>
     </ClInclude>
-    <ClInclude Include="licenses\SFML.h">
+    <ClInclude Include="licenses\L_SFML.h">
       <Filter>licenses</Filter>
     </ClInclude>
-    <ClInclude Include="licenses\wxWidgets.h">
+    <ClInclude Include="licenses\L_wxWidgets.h">
       <Filter>licenses</Filter>
     </ClInclude>
     <ClInclude Include="old_precompile\pch.h">
       <Filter>old_precompile</Filter>
+    </ClInclude>
+    <ClInclude Include="global_include\I_Headers.h">
+      <Filter>global_include</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -538,5 +544,56 @@
     <None Include="AppIcon64.xpm" />
     <None Include="AutoBackup.xpm" />
     <None Include="cpp.hint" />
+    <None Include="misc\AppIcon24.xpm">
+      <Filter>misc</Filter>
+    </None>
+    <None Include="misc\AppIcon32.xpm">
+      <Filter>misc</Filter>
+    </None>
+    <None Include="misc\AppIcon64.xpm">
+      <Filter>misc</Filter>
+    </None>
+    <None Include="misc\AutoBackup.xpm">
+      <Filter>misc</Filter>
+    </None>
+    <None Include="misc\DRSlock.xpm">
+      <Filter>misc</Filter>
+    </None>
+    <None Include="misc\DRSunlock.xpm">
+      <Filter>misc</Filter>
+    </None>
+    <None Include="misc\float.xpm">
+      <Filter>misc</Filter>
+    </None>
+    <None Include="misc\GateClosed.xpm">
+      <Filter>misc</Filter>
+    </None>
+    <None Include="misc\GateOpen.xpm">
+      <Filter>misc</Filter>
+    </None>
+    <None Include="misc\Ox.xpm">
+      <Filter>misc</Filter>
+    </None>
+    <None Include="misc\Paste.xpm">
+      <Filter>misc</Filter>
+    </None>
+    <None Include="misc\Question.xpm">
+      <Filter>misc</Filter>
+    </None>
+    <None Include="misc\Reselection.xpm">
+      <Filter>misc</Filter>
+    </None>
+    <None Include="misc\SecondWindow.xpm">
+      <Filter>misc</Filter>
+    </None>
+    <None Include="misc\Tree.xpm">
+      <Filter>misc</Filter>
+    </None>
+    <None Include="misc\Tree32.xpm">
+      <Filter>misc</Filter>
+    </None>
+    <None Include="misc\Villager32.xpm">
+      <Filter>misc</Filter>
+    </None>
   </ItemGroup>
 </Project>

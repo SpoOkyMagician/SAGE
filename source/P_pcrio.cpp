@@ -35,6 +35,9 @@
     IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
+#include <I_Headers.h>
+
+/*
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -42,6 +45,7 @@
 
 #include <P_pcrdef.h>
 #include <P_pcrio.h>
+*/
 
 #define INT32_HIGH_BYTE 2147483648u
 

@@ -17,7 +17,9 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+#include <I_Headers.h>
 
+/*
 #include "G_PalFile.h"
 
 #include <iostream>
@@ -26,6 +28,7 @@
 
 #include "G_Logger.h"
 #include "G_Color.h"
+*/
 
 namespace genie
 {

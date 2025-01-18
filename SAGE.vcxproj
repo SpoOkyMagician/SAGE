@@ -62,7 +62,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\jerem\OneDrive\Desktop\SAGE\headers\;C:\Users\jerem\OneDrive\Desktop\SAGE\licenses\;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\boost_source\stage\lib\;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\boost_source\boost\;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\sfml_source\include\SFML\;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\lz4_source\lib\;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\boost_source\boost\iostreams\;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\boost_source\boost\regex\;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\boost_source\boost\lexical_cast\;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\boost_source\libs\lexical_cast\include\boost\;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\boost_source\libs\lexical_cast\include\boost\lexical_cast\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jerem\OneDrive\Desktop\SAGE\global_include;C:\Users\jerem\OneDrive\Desktop\SAGE\headers\;C:\Users\jerem\OneDrive\Desktop\SAGE\licenses\;C:\Users\jerem\OneDrive\Desktop\SAGE\misc;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\boost_source\stage\lib\;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\boost_source\boost\;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\sfml_source\include\SFML\;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\lz4_source\lib\;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\boost_source\boost\iostreams\;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\boost_source\boost\regex\;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\boost_source\boost\lexical_cast\;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\boost_source\libs\lexical_cast\include\boost\;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\boost_source\libs\lexical_cast\include\boost\lexical_cast\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -109,7 +109,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\jerem\OneDrive\Desktop\SAGE\headers\;C:\Users\jerem\OneDrive\Desktop\SAGE\licenses\;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\boost_source\stage\lib\;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\boost_source\boost\;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\sfml_source\include\SFML\;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\lz4_source\lib\;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\boost_source\boost\iostreams\;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\boost_source\boost\regex\;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\boost_source\boost\lexical_cast\;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\boost_source\libs\lexical_cast\include\boost\;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\boost_source\libs\lexical_cast\include\boost\lexical_cast\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jerem\OneDrive\Desktop\SAGE\global_include;C:\Users\jerem\OneDrive\Desktop\SAGE\headers\;C:\Users\jerem\OneDrive\Desktop\SAGE\licenses\;C:\Users\jerem\OneDrive\Desktop\SAGE\misc;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\boost_source\stage\lib\;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\boost_source\boost\;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\sfml_source\include\SFML\;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\lz4_source\lib\;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\boost_source\boost\iostreams\;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\boost_source\boost\regex\;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\boost_source\boost\lexical_cast\;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\boost_source\libs\lexical_cast\include\boost\;D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\boost_source\libs\lexical_cast\include\boost\lexical_cast\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -277,6 +277,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="source\P_pcrio.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="global_include\I_Headers.h" />
     <ClInclude Include="headers\A_AboutDialog.h" />
     <ClInclude Include="headers\A_AGE_Frame.h" />
     <ClInclude Include="headers\A_BaseMainFrame.h" />
@@ -289,7 +290,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="headers\A_LinkedCheckBox.h" />
     <ClInclude Include="headers\A_LinkedControl.h" />
     <ClInclude Include="headers\A_Loaders.h" />
-    <ClInclude Include="headers\A_Main.h" />
     <ClInclude Include="headers\A_OpenDialog.h" />
     <ClInclude Include="headers\A_OpenSaveDialog.h" />
     <ClInclude Include="headers\A_resource.h" />
@@ -352,12 +352,12 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="headers\G_UnitLine.h" />
     <ClInclude Include="headers\P_pcrdef.h" />
     <ClInclude Include="headers\P_pcrio.h" />
-    <ClInclude Include="licenses\boost.h" />
-    <ClInclude Include="licenses\GPLv3.h" />
-    <ClInclude Include="licenses\LGPLv2.h" />
-    <ClInclude Include="licenses\liblz4.h" />
-    <ClInclude Include="licenses\SFML.h" />
-    <ClInclude Include="licenses\wxWidgets.h" />
+    <ClInclude Include="licenses\L_boost.h" />
+    <ClInclude Include="licenses\L_GPLv3.h" />
+    <ClInclude Include="licenses\L_LGPLv2.h" />
+    <ClInclude Include="licenses\L_liblz4.h" />
+    <ClInclude Include="licenses\L_SFML.h" />
+    <ClInclude Include="licenses\L_wxWidgets.h" />
     <ClInclude Include="old_precompile\pch.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
@@ -372,14 +372,37 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <Text Include="ReleaseNotesOld.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="AppIcon.ico" />
+    <Image Include="AppIcon.ico">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </Image>
   </ItemGroup>
   <ItemGroup>
-    <None Include="AppIcon24.xpm" />
+    <None Include="AppIcon24.xpm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </None>
     <None Include="AppIcon32.xpm" />
     <None Include="AppIcon64.xpm" />
     <None Include="AutoBackup.xpm" />
     <None Include="cpp.hint" />
+    <None Include="misc\AppIcon24.xpm" />
+    <None Include="misc\AppIcon32.xpm" />
+    <None Include="misc\AppIcon64.xpm" />
+    <None Include="misc\AutoBackup.xpm" />
+    <None Include="misc\DRSlock.xpm" />
+    <None Include="misc\DRSunlock.xpm" />
+    <None Include="misc\float.xpm" />
+    <None Include="misc\GateClosed.xpm" />
+    <None Include="misc\GateOpen.xpm" />
+    <None Include="misc\Ox.xpm" />
+    <None Include="misc\Paste.xpm" />
+    <None Include="misc\Question.xpm" />
+    <None Include="misc\Reselection.xpm" />
+    <None Include="misc\SecondWindow.xpm" />
+    <None Include="misc\Tree.xpm" />
+    <None Include="misc\Tree32.xpm" />
+    <None Include="misc\Villager32.xpm" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

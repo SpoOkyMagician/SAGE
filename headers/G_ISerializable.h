@@ -21,6 +21,7 @@
 #ifndef GENIE_ISERIALIZABLE_H
 #define GENIE_ISERIALIZABLE_H
 
+/*
 #include <iostream>
 
 #include "G_Types.h"
@@ -28,6 +29,7 @@
 #include <vector>
 #include <string.h>
 #include <stdint.h>
+*/
 
 namespace genie
 {

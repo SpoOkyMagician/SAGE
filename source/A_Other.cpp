@@ -1,3 +1,6 @@
+#include <I_Headers.h>
+
+/*
 #include "A_AboutDialog.h"
 #include "A_AGE_Frame.h"
 #include "A_EditableVersion.h"
@@ -5,6 +8,7 @@
 #include "A_OpenDialog.h"
 #include "A_SaveDialog.h"
 #include <wx/toolbar.h>
+*/
 
 #ifndef WIN32
 // dummies for code that is not used on linux
@@ -12,6 +16,7 @@
 #define LoadLibrary(name) (0)
 #endif
 
+/*
 // Icons
 #include "../DRSunlock.xpm"
 #include "../DRSlock.xpm"
@@ -24,6 +29,7 @@
 #include <wx/generic/textdlgg.h>
 #include <wx/stdpaths.h>
 #include <iomanip>
+*/
 
 genie::GameVersion EditorVersionAsGameVersion(int ver)
 {

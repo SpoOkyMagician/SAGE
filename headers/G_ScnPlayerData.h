@@ -22,10 +22,12 @@
 #ifndef GENIE_SCN_PLAYER_DATA_H
 #define GENIE_SCN_PLAYER_DATA_H
 
+/*
 #include "G_ISerializable.h"
 #include "G_ScnResource.h"
 
 #include <stdint.h>
+*/
 
 namespace genie
 {

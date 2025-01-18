@@ -20,7 +20,10 @@
 
 #ifndef GENIE_UNITCOMMAND_H
 #define GENIE_UNITCOMMAND_H
+
+/*
 #include "G_ISerializable.h"
+*/
 
 namespace genie
 {

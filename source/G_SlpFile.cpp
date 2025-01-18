@@ -17,6 +17,9 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+#include <I_Headers.h>
+
+/*
 #include "G_SlpFile.h"
 
 #include <cassert>
@@ -27,6 +30,7 @@
 #include "G_PalFile.h"
 
 #include "lz4hc.h"
+*/
 
 namespace genie
 {

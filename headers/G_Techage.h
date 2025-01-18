@@ -18,11 +18,13 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-
 #ifndef GENIE_TECHAGE_H
 #define GENIE_TECHAGE_H
+
+/*
 #include "G_ISerializable.h"
 #include "G_TechageEffect.h"
+*/
 
 namespace genie
 {
