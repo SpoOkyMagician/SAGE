@@ -1,6 +1,6 @@
 #include "A_CustomTextControls.h"
 #include "A_LinkedCheckBox.h"
-#include <boost/lexical_cast.hpp>
+// #include <boost/lexical_cast.hpp>
 
 LinkedCheckBox::LinkedCheckBox(wxWindow* parent, wxString label, AGETextCtrl* link, bool connect) :
     wxCheckBox(parent, wxID_ANY, label), LinkedControl(link)

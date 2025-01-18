@@ -1,12 +1,12 @@
 #include "A_AboutDialog.h"
-#include "C:\Users\jerem\OneDrive\Desktop\SAGE\AppIcon64.xpm"
+#include "AppIcon64.xpm"
 #include "A_CustomWidgets.h"
-#include "C:\Users\jerem\OneDrive\Desktop\SAGE\licenses\boost.h"
-#include "C:\Users\jerem\OneDrive\Desktop\SAGE\licenses\GPLv3.h"
-#include "C:\Users\jerem\OneDrive\Desktop\SAGE\licenses\LGPLv2.h"
-#include "C:\Users\jerem\OneDrive\Desktop\SAGE\licenses\liblz4.h"
-#include "C:\Users\jerem\OneDrive\Desktop\SAGE\licenses\SFML.h"
-#include "C:\Users\jerem\OneDrive\Desktop\SAGE\licenses\wxWidgets.h"
+#include "licenses\boost.h"
+#include "licenses\GPLv3.h"
+#include "licenses\LGPLv2.h"
+#include "licenses\liblz4.h"
+#include "licenses\SFML.h"
+#include "licenses\wxWidgets.h"
 #include <A_Main.h>
 
 const wxString AboutDialog::AGE_VER = "2024.5.9";

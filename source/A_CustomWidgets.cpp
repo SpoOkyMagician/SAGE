@@ -5,7 +5,7 @@
 float AScrolled::rate;
 
 ProperList::ProperList(wxWindow* parent, const wxSize& size) :
-    wxVListBox(parent, wxID_ANY, wxDefaultPosition, size, wxLB_INT_HEIGHT | wxLB_MULTIPLE)//wxLB_EXTENDED)
+    wxVListBox(parent, wxID_ANY, wxDefaultPosition, size, wxLB_INT_HEIGHT | wxLB_MULTIPLE) //wxLB_EXTENDED)
 {
     SetItemCount(0);
     row_height = GetCharHeight();
@@ -96,23 +96,24 @@ AScrolled::AScrolled(wxWindow* parent) :
         // Smooth scrolling
     Bind(wxEVT_MOUSEWHEEL, [this](wxMouseEvent& event)
         {
+            
             /*
             float rotation = static_cast<float>(event.GetWheelRotation());
             float scaled = rate * rotation + remainder;
             int lines = static_cast<int>(scaled);
-            int pos;
-            if (remainder != 0)
+            int pos = 0;
+            
+            if (remainder != 0 && remainder < 0 || remainder != 0 && rotation < 0)
             {
-                if (remainder < 0 || rotation < 0)
-                {
-                    remainder = 0;
-                }
-                if (lines != 0)
-                {
-                    remainder = scaled - (float)lines;
-                    GetViewStart(&pos, &pos);
-                    Scroll(0, std::max(pos - lines, 0));
-                }
+                remainder = 0;
+            }
+            if (lines != 0)
+            {
+                remainder = scaled - (float)lines;
+                GetViewStart(&pos, &pos);
+                Scroll(0, std::max(pos - lines, 0));
+            }
+            
             }
             */
         });

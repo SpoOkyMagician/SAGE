@@ -1,0 +1,3 @@
+[LZ4 Old/New]
+
+#include "lz4hc.h"

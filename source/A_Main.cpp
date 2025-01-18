@@ -9,7 +9,7 @@ Copies BaseMainFrame::copies;
 bool AGE::OnInit()
 {
     SetVendorName("Tapsa");
-    SetAppName("SpoOky'sAdvancedGenieEditor3");
+    SetAppName("SpoOkysAdvancedGenieEditor3");
     SetAppDisplayName("SpoOky's Advanced Genie Editor");
     wxImage::AddHandler(new wxPNGHandler);
     wxImage::AddHandler(new wxTGAHandler);
