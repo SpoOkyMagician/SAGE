@@ -306,10 +306,3 @@ namespace boost { namespace iostreams { struct zlib_params; } }
 
 using boost::lexical_cast;
 using boost::bad_lexical_cast;
-
-class AGE : public wxApp
-{
-    virtual bool OnInit() override;
-};
-
-void DECLARE_APP(AGE);
