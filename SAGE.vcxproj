@@ -298,6 +298,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="headers\A_LinkedCheckBox.h" />
     <ClInclude Include="headers\A_LinkedControl.h" />
     <ClInclude Include="headers\A_Loaders.h" />
+    <ClInclude Include="headers\A_Main.h" />
     <ClInclude Include="headers\A_OpenDialog.h" />
     <ClInclude Include="headers\A_OpenSaveDialog.h" />
     <ClInclude Include="headers\A_resource.h" />

@@ -527,6 +527,9 @@
     <ClInclude Include="global_include\I_Headers.h">
       <Filter>global_include</Filter>
     </ClInclude>
+    <ClInclude Include="headers\A_Main.h">
+      <Filter>headers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="old_precompile\note.txt">

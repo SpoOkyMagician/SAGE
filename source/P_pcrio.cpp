@@ -58,7 +58,7 @@
 
 #define SECTION_NAME_RESOURCE ".rsrc"
 
-auto IMAGE_SCN_CNT_INITIALIZED_DATA = 0x00000040;  // Section contains initialized data.
+#define IMAGE_SCN_CNT_INITIALIZED_DATA = 0x00000040;  // Section contains initialized data.
 
 
 /*
