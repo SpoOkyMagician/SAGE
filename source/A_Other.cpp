@@ -32,7 +32,7 @@
 #include <iomanip>
 */
 
-genie::GameVersion EditorVersionAsGameVersion(int ver)
+static genie::GameVersion EditorVersionAsGameVersion(int ver)
 {
     switch (ver)
     {
@@ -63,7 +63,7 @@ genie::GameVersion EditorVersionAsGameVersion(int ver)
     }
 }
 
-wxString FixEditorVersion(wxString ver)
+static wxString FixEditorVersion(wxString ver)
 {
     switch (boost::lexical_cast<int>(ver))
     {

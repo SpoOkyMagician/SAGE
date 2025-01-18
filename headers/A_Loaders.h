@@ -1,5 +1,6 @@
 #pragma once
 #include "I_Headers.h"
+#include "G_SpriteFile.h" // weird... I have to include this here...
 
 /*
 #include <list>

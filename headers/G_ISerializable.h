@@ -20,6 +20,7 @@
 
 #pragma once
 #include "I_Headers.h"
+#include "G_Types.h" // weird... I need to include this...
 
 #ifndef GENIE_ISERIALIZABLE_H
 #define GENIE_ISERIALIZABLE_H
