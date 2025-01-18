@@ -35,7 +35,8 @@
     IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-#include <I_Headers.h>
+#pragma once
+#include "I_Headers.h"
 
 /*
 #include <stdio.h>

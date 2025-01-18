@@ -14,7 +14,8 @@
 // than using it (possibly importing code).
 #define BOOST_IOSTREAMS_SOURCE 
 
-#include <I_Headers.h>
+#pragma once
+#include "I_Headers.h"
 
 /*
 #include <boost/throw_exception.hpp>

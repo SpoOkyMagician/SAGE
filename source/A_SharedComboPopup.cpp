@@ -14,7 +14,8 @@
 // headers
 // ----------------------------------------------------------------------------
 
-#include <I_Headers.h>
+#pragma once
+#include "I_Headers.h"
 
 /*
 #include "A_SharedComboPopup.h"

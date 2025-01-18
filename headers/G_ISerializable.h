@@ -18,6 +18,9 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+#pragma once
+#include "I_Headers.h"
+
 #ifndef GENIE_ISERIALIZABLE_H
 #define GENIE_ISERIALIZABLE_H
 
@@ -636,7 +639,7 @@ private:
 
   Operation operation_;
 
-  GameVersion gameVersion_ = GameVersion::GV_None;
+  GameVersion; gameVersion_ = GameVersion::GV_None;
 
   size_t size_;
 };

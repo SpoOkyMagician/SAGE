@@ -7,7 +7,8 @@
 // - D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\sfml_source\include\SFML*
 // - D:\SteamLibrary\steamapps\common\AoE2DE\Tools_Builds\docs\Source\lz4_source\lib* (Yes, the headers is actually here.)
 // Note: wx, boost, sfml, and lz4 libs are also included in the project properties.
-// 
+
+#pragma once
 
 #include <algorithm>
 #include <array>

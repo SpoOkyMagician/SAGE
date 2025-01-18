@@ -17,6 +17,9 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+#pragma once
+#include "I_Headers.h"
+
 #ifndef GENIE_LANGFILE_H
 #define GENIE_LANGFILE_H
 

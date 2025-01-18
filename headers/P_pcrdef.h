@@ -34,6 +34,9 @@
     IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
+#pragma once
+#include "I_Headers.h"
+
 #ifndef PCRDEF_H
 #define PCRDEF_H
 

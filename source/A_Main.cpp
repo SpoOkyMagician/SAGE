@@ -1,5 +1,5 @@
-#include "A_BaseMainFrame.h"
-#include "A_Main.h"
+#pragma once
+#include "I_Headers.h"
 
 IMPLEMENT_APP(AGE)
 

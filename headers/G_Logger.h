@@ -16,6 +16,9 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+#pragma once
+#include "I_Headers.h"
+
 #ifndef GENIE_LOGGER_H
 #define GENIE_LOGGER_H
 

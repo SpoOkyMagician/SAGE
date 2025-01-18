@@ -6,6 +6,8 @@
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////
 
+#pragma once
+
 #ifndef _SHAREDCOMBO_H_
 #define _SHAREDCOMBO_H_
 
